@@ -1,7 +1,7 @@
 Introduction to databases
 =====================
 
-*Version 1, 2019-08-15*
+*Version 1, 2019-09-27*
 
 *https://github.com/LinuxAtDuke/intro-to-databases*
 
