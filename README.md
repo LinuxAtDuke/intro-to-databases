@@ -13,10 +13,6 @@ Andy Ingham (andy.ingham AT duke.edu)
 
 1. [Unit 1: Databases, schema](#unit1)
 
-  * A brief tangent to discuss architecture
-
-	https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/client-server-architecture.pdf
-
 <a name='unit1'></a>
 ## Unit 1: Databases, schema
 
