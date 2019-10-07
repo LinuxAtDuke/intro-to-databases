@@ -25,7 +25,7 @@ ADD SOME SAMPLE SQL ALSO?
   * What are data?
 	- https://en.wikipedia.org/wiki/Data
 
-  * What is a “database”?
+  * What is a "database"?
   	- https://en.wikipedia.org/wiki/Database
   	
   * Databases are primarily needed to structure and organize data so that:
