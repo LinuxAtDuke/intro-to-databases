@@ -12,7 +12,7 @@ Andy Ingham (andy.ingham AT duke.edu)
 **Table of Contents**
 
 1. [Unit 1: Definitions, uses, and kinds](#unit1)
-2. [Unit 2: Schema](#unit2)
+2. [Unit 2: Schema, data dictionary](#unit2)
 3. [Unit 3: Architectures](#unit3)
 4. [Unit 4: Data integrity, security, privacy](#unit4)
 5. [Unit 5: Advanced topics](#unit5)
@@ -37,6 +37,7 @@ ADD SOME SAMPLE SQL ALSO?
   * Kinds of databases (https://en.wikipedia.org/wiki/Database#Classification )
   	- Relational
   	(https://medium.com/@pocztarski/what-if-i-told-you-there-are-no-tables-in-relational-databases-13d31a2f9677 )
+  	- NoSQL
 	
 	
 <a name='unit2'></a>
@@ -109,6 +110,14 @@ ADD SOME SAMPLE SQL ALSO?
 
 <a name='unit3'></a>
 ## Unit 3: Architectures
+  * suitability
+  	- functionality
+  	- security / updating
+  	- usability / reporting (CLI or GUI)
+  	- integration (base OS, middleware, ODBC)
+  	- cost
+  	- support / hosting / future development
+  	- scalability (DBMS as well as underlying environments)
 
 <a name='unit4'></a>
 ## Unit 4: Data integrity, security, privacy
