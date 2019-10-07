@@ -11,10 +11,19 @@ Andy Ingham (andy.ingham AT duke.edu)
 
 **Table of Contents**
 
-1. [Unit 1: Databases, schema](#unit1)
+1. [Unit 1: Definitions, uses, and kinds](#unit1)
+2. [Unit 2: Schema](#unit2)
 
 <a name='unit1'></a>
-## Unit 1: Databases, schema
+## Unit 1: Definitions, uses, and kinds
+
+  * What are data?
+	- https://en.wikipedia.org/wiki/Data
+
+  * What is a “database”?
+
+<a name='unit2'></a>
+## Unit 2: Schema
 
   * Schema development is best done via an ER diagram and/or a whiteboard - consider these:
 	- what are the entities?
