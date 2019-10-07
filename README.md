@@ -1,7 +1,7 @@
 Introduction to databases
 =====================
 
-*Version 1, 2019-09-27*
+*Version 1, 2019-10-07*
 
 *https://github.com/LinuxAtDuke/intro-to-databases*
 
@@ -13,6 +13,11 @@ Andy Ingham (andy.ingham AT duke.edu)
 
 1. [Unit 1: Definitions, uses, and kinds](#unit1)
 2. [Unit 2: Schema](#unit2)
+3. [Unit 3: Architectures](#unit3)
+4. [Unit 4: Data integrity, security, privacy](#unit4)
+5. [Unit 5: Advanced topics](#unit5)
+
+ADD SOME SAMPLE SQL ALSO?
 
 <a name='unit1'></a>
 ## Unit 1: Definitions, uses, and kinds
@@ -20,10 +25,22 @@ Andy Ingham (andy.ingham AT duke.edu)
   * What are data?
 	- https://en.wikipedia.org/wiki/Data
 
-  * What is a ‚Äúdatabase‚Äù?
-
+  * What is a “database”?
+  	- https://en.wikipedia.org/wiki/Database
+  	
+  * Databases are primarily needed to structure and organize data so that:
+  	- associations can be revealed,
+  	- patterns can be exposed,
+  	- questions can be answered,
+  	- a repository of information can be stored
+  	
+  * Kinds of databases (https://en.wikipedia.org/wiki/Database#Classification )
+  	- Relational
+  	(https://medium.com/@pocztarski/what-if-i-told-you-there-are-no-tables-in-relational-databases-13d31a2f9677 )
+	
+	
 <a name='unit2'></a>
-## Unit 2: Schema
+## Unit 2: Schema, data dictionary
 
   * Schema development is best done via an ER diagram and/or a whiteboard - consider these:
 	- what are the entities?
@@ -87,3 +104,17 @@ Andy Ingham (andy.ingham AT duke.edu)
 	| DistanceToNearGene | varchar(32)         | NO   |     | NULL    |       |
 	| Gene               | varchar(32)         | NO   |     | NULL    |       |
 	| SNPtype            | varchar(64)         | NO   |     | NULL    |       |
+
+
+
+<a name='unit3'></a>
+## Unit 3: Architectures
+
+<a name='unit4'></a>
+## Unit 4: Data integrity, security, privacy
+
+  * ACID (Atomicity, Consistency, Isolation, and Durability)
+  * CRUD (Create, Read, Update, Delete)
+  
+<a name='unit5'></a>
+## Unit 5: Advanced topics
