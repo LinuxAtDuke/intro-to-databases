@@ -1,7 +1,7 @@
 Introduction to databases
 =====================
 
-*Version 1, 2019-10-07*
+*Version 1, 2019-10-22*
 
 *https://github.com/LinuxAtDuke/intro-to-databases*
 
@@ -37,33 +37,20 @@ ADD SOME SAMPLE SQL ALSO?
   * Kinds of databases (https://en.wikipedia.org/wiki/Database#Classification )
   	- Relational
   	(https://medium.com/@pocztarski/what-if-i-told-you-there-are-no-tables-in-relational-databases-13d31a2f9677 )
-	  * PROS:
-		highly normalizable (avoid data duplication)
-		stable
-		mature
-	  * CONS:
-		rigid
+	  * PROS:  highly normalizable (avoids data duplication); stable; mature
+	  * CONS:  rigid
 	
 	- Object / document / NoSQL
-	  * PROS:
-		faster for large or distributed data
-		flexibility
-	  * CONS:
-		less standardization for how to interact with data
-		lack of enforcement needs to be offset by developer-discipline and vigilance
-		only wise for certain use cases
+	  * PROS:  faster for large or distributed data; flexible
+	  * CONS:  less standardization for how to interact with data; requires high developer discipline; reasonable use cases are limited
 		
 	- GraphDBs
-	  * PROS:
-		great for highly interconnected data	
-	  * CONS:
-		highly complex for both users and developers
+	  * PROS:  powerful for specialized use cases (highly interconnected data)	
+	  * CONS:  highly complex for both users and developers
 
 	- Key-value stores:
-	  * PROS:
-		simple
-	  * CONS:
-		simple
+	  * PROS:  simple
+	  * CONS:  simple
 	
 <a name='unit2'></a>
 ## Unit 2: Schema, data dictionary
