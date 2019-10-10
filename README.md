@@ -47,8 +47,8 @@ Andy Ingham (andy.ingham AT duke.edu)
 	  * CONS:  highly complex for both users and developers
 
 	- Key-value stores:
-	  * PROS:  simple; geared towards use cases with mostly reads/writes (minimal updates)
-	  * CONS:  simple; geared towards 
+	  * PROS:  simple
+	  * CONS:  simple 
 	
 <a name='unit2'></a>
 ## Unit 2: Schema, data dictionary
