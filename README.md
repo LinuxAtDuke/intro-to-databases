@@ -17,8 +17,6 @@ Andy Ingham (andy.ingham AT duke.edu)
 4. [Unit 4: Data integrity, security, confidentiality](#unit4)
 5. [Unit 5: Advanced topics](#unit5)
 
-ADD SOME SAMPLE SQL ALSO?
-
 <a name='unit1'></a>
 ## Unit 1: Definitions, uses, and kinds
 
@@ -37,7 +35,7 @@ ADD SOME SAMPLE SQL ALSO?
   * Kinds of databases (https://en.wikipedia.org/wiki/Database#Classification )
   	- Relational
   	(https://medium.com/@pocztarski/what-if-i-told-you-there-are-no-tables-in-relational-databases-13d31a2f9677 )
-	  * PROS:  highly normalizable (avoids data duplication); stable; mature
+	  * PROS:  highly normalizable (avoids data duplication); stable; mature; consistency after each transaction
 	  * CONS:  rigid
 	
 	- Object / document / NoSQL
@@ -49,8 +47,8 @@ ADD SOME SAMPLE SQL ALSO?
 	  * CONS:  highly complex for both users and developers
 
 	- Key-value stores:
-	  * PROS:  simple
-	  * CONS:  simple
+	  * PROS:  simple; geared towards use cases with mostly reads/writes (minimal updates)
+	  * CONS:  simple; geared towards 
 	
 <a name='unit2'></a>
 ## Unit 2: Schema, data dictionary
@@ -122,9 +120,10 @@ ADD SOME SAMPLE SQL ALSO?
 
 <a name='unit3'></a>
 ## Unit 3: Architectures
-  * suitability
+
+  * suitability (or, So which database to choose?  (SQLite vs Postgres vs MySQL vs ORACLE vs ...))
   	- functionality
-  	- security / updating
+  	- security / regularly patched?
   	- usability / reporting (CLI or GUI)
   	- integration (base OS, middleware, ODBC)
   	- cost
