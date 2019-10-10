@@ -14,7 +14,7 @@ Andy Ingham (andy.ingham AT duke.edu)
 1. [Unit 1: Definitions, uses, and kinds](#unit1)
 2. [Unit 2: Schema, data dictionary](#unit2)
 3. [Unit 3: Architectures](#unit3)
-4. [Unit 4: Data integrity, security, privacy](#unit4)
+4. [Unit 4: Data integrity, security, confidentiality](#unit4)
 5. [Unit 5: Advanced topics](#unit5)
 
 ADD SOME SAMPLE SQL ALSO?
@@ -37,8 +37,33 @@ ADD SOME SAMPLE SQL ALSO?
   * Kinds of databases (https://en.wikipedia.org/wiki/Database#Classification )
   	- Relational
   	(https://medium.com/@pocztarski/what-if-i-told-you-there-are-no-tables-in-relational-databases-13d31a2f9677 )
-  	- NoSQL
+	  * PROS:
+		highly normalizable (avoid data duplication)
+		stable
+		mature
+	  * CONS:
+		rigid
 	
+	- Object / document / NoSQL
+	  * PROS:
+		faster for large or distributed data
+		flexibility
+	  * CONS:
+		less standardization for how to interact with data
+		lack of enforcement needs to be offset by developer-discipline and vigilance
+		only wise for certain use cases
+		
+	- GraphDBs
+	  * PROS:
+		great for highly interconnected data	
+	  * CONS:
+		highly complex for both users and developers
+
+	- Key-value stores:
+	  * PROS:
+		simple
+	  * CONS:
+		simple
 	
 <a name='unit2'></a>
 ## Unit 2: Schema, data dictionary
@@ -120,7 +145,7 @@ ADD SOME SAMPLE SQL ALSO?
   	- scalability (DBMS as well as underlying environments)
 
 <a name='unit4'></a>
-## Unit 4: Data integrity, security, privacy
+## Unit 4: Data integrity, security, confidentiality
 
   * ACID (Atomicity, Consistency, Isolation, and Durability)
   * CRUD (Create, Read, Update, Delete)
