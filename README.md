@@ -123,18 +123,36 @@ Andy Ingham (andy.ingham AT duke.edu)
 
   * suitability (or, So which database to choose?  (SQLite vs Postgres vs MySQL vs ORACLE vs ...))
   	- functionality
-  	- security / regularly patched?
-  	- usability / reporting (CLI or GUI)
-  	- integration (base OS, middleware, ODBC)
+  	  * store and retrieve; CRUD (Create, Read, Update, Delete)
+  	  * partitioning, replication, MVCC (Multi-Version Concurrency Control)
+	  * advanced data types + searching (e.g., Xpath)
+	  * stored procedures, triggers, views
+      * "Hot" backups, point-in-time recovery
+      * as good a place as any for ... why databases aren't spreadsheets
+  	- security
+  	  * secure defaults (accounts, passwords, settings, allowed connections)
+  	  * straightforward administration
+  	  * regularly patched
+  	- usability / reporting
+  	  * CLI or GUI
+  	  * documentation / community-support
+  	- integration
+  	  * base OS
+  	  * middleware / ODBC
+  	  * reporting tools
   	- cost
-  	- support / hosting / future development
+  	  * up-front (hardware, licensing)
+  	  * pay-as-you-go (cloud options)
+  	- support / hosting / future development (bug fixes+enhancements+security)
   	- scalability (DBMS as well as underlying environments)
+  	  * storage needs
+  	  * transaction rates
+
 
 <a name='unit4'></a>
 ## Unit 4: Data integrity, security, confidentiality
 
   * ACID (Atomicity, Consistency, Isolation, and Durability)
-  * CRUD (Create, Read, Update, Delete)
   
 <a name='unit5'></a>
 ## Unit 5: Advanced topics
