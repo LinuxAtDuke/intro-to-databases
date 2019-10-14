@@ -15,7 +15,7 @@ Andy Ingham (andy.ingham AT duke.edu)
 2. [Unit 2: Schema, data dictionary](#unit2)
 3. [Unit 3: Architectures](#unit3)
 4. [Unit 4: Data integrity, security, confidentiality](#unit4)
-5. [Unit 5: Advanced topics](#unit5)
+5. [Unit 5: Advanced topics (time permitting)](#unit5)
 
 <a name='unit1'></a>
 ## Unit 1: Definitions, uses, and kinds
@@ -125,7 +125,7 @@ Andy Ingham (andy.ingham AT duke.edu)
   	- functionality
   	  * store and retrieve; CRUD (Create, Read, Update, Delete)
   	  * partitioning, replication, MVCC (Multi-Version Concurrency Control)
-	  * advanced data types + searching (e.g., Xpath)
+	  * advanced data types + searching (e.g., XPath)
 	  * stored procedures, triggers, views
       * "Hot" backups, point-in-time recovery
       * as good a place as any for ... why databases aren't spreadsheets
@@ -152,7 +152,8 @@ Andy Ingham (andy.ingham AT duke.edu)
 <a name='unit4'></a>
 ## Unit 4: Data integrity, security, confidentiality
 
-  * ACID (Atomicity, Consistency, Isolation, and Durability)
+  * integrity:  ACID (Atomicity, Consistency, Isolation, and Durability) (https://en.wikipedia.org/wiki/ACID)
+  * (IT) security:	CIA (Confidentiality, Integrity, Availability)
   
 <a name='unit5'></a>
 ## Unit 5: Advanced topics
