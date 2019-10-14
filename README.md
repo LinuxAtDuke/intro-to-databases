@@ -153,7 +153,7 @@ Andy Ingham (andy.ingham AT duke.edu)
 ## Unit 4: Data integrity, security, confidentiality
 
   * integrity:  ACID (Atomicity, Consistency, Isolation, and Durability) (https://en.wikipedia.org/wiki/ACID)
-  * (IT) security:	CIA (Confidentiality, Integrity, Availability)
+  * (information) security:	CIA (Confidentiality, Integrity, Availability)
   
 <a name='unit5'></a>
 ## Unit 5: Advanced topics
