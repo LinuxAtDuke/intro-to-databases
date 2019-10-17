@@ -49,7 +49,18 @@ Andy Ingham (andy.ingham AT duke.edu)
 	- Key-value stores:
 	  * PROS:  simple
 	  * CONS:  simple 
-	
+
+  * Why databases aren't spreadsheets.  GENERALLY, databases:
+	- are more powerful (can organize data in more complex ways)
+		* and, therefore, can provide FAR better searching/discovery options
+	- provide better normalization (if designed well)
+		* and, therefore, are more performant as size increases
+	- provide more complex integrity checks (rules and constraints)
+	- are more flexible (in how they can be configured)
+	- provide more granular options for things like access control
+	- provide more and better options for external integrations
+	- are more focused on storing than tabulating/displaying
+
 <a name='unit2'></a>
 ## Unit 2: Schema, data dictionary
 
@@ -128,16 +139,6 @@ Andy Ingham (andy.ingham AT duke.edu)
 	  * advanced data types + searching (e.g., XPath)
 	  * stored procedures, triggers, views
       * "Hot" backups, point-in-time recovery
-      * Why databases aren't spreadsheets.  GENERALLY, databases:
-		- are more powerful (can organize data in more complex ways)
-			* and, therefore, can provide FAR better searching/discovery options
-		- provide better normalization (if designed well)
-			* and, therefore, are more performant as size increases
-		- provide more complex integrity checks (rules and constraints)
-		- are more flexible (in how they can be configured)
-		- provide more granular options for things like access control
-		- provide more and better options for external integrations
-		- are more focused on storing than tabulating/displaying
   	- security
   	  * secure defaults (accounts, passwords, settings, allowed connections)
   	  * straightforward administration
