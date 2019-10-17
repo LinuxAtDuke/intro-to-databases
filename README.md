@@ -48,13 +48,13 @@ Andy Ingham (andy.ingham AT duke.edu)
 
 	- Key-value stores:
 	  * PROS:  simple
-	  * CONS:  simple 
+	  * CONS:  simple
 
-  * Why databases aren't spreadsheets.  GENERALLY, databases:
+  * Why databases aren't spreadsheets.  _GENERALLY, databases_:
 	- are more powerful (can organize data in more complex ways)
-		* and, therefore, can provide FAR better searching/discovery options
+		<p> and, therefore, can provide FAR better searching/discovery options</p>
 	- provide better normalization (if designed well)
-		* and, therefore, are more performant as size increases
+		<p> and, therefore, are more performant as size increases</p>
 	- provide more complex integrity checks (rules and constraints)
 	- are more flexible (in how they can be configured)
 	- provide more granular options for things like access control
