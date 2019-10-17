@@ -75,11 +75,11 @@ Andy Ingham (andy.ingham AT duke.edu)
   	- http://www.anchor.com.au/hosting/support/CreatingAQuickMySQLRelationalDatabase
 
   * Fine-tuning of schema...
-	- referential integrity - data types consistent across linking fields (foreign keys)
+	- referential integrity - data types consistent across linking fields (foreign keys) (https://en.wikipedia.org/wiki/Data_integrity )
 	- data types (https://dev.mysql.com/doc/refman/5.7/en/data-types.html) should be as prescriptive and compact as possible
 	- index creation should be done where needed, but not elsewhere
-	- index creation is always faster BEFORE data is loaded into the table
-	- verify that data is "reasonably" normalized (e.g., data generally de-duplicated)
+	- index creation is always faster BEFORE data are loaded into the table
+	- verify that data are "reasonably" normalized (e.g., data generally de-duplicated)
 
   * Some examples
   
@@ -128,7 +128,16 @@ Andy Ingham (andy.ingham AT duke.edu)
 	  * advanced data types + searching (e.g., XPath)
 	  * stored procedures, triggers, views
       * "Hot" backups, point-in-time recovery
-      * as good a place as any for ... why databases aren't spreadsheets
+      * Why databases aren't spreadsheets.  GENERALLY, databases:
+		- are more powerful (can organize data in more complex ways)
+			- and, therefore, can provide FAR better searching/discovery options
+		- provide better normalization (if designed well)
+			- and, therefore, are more performant as size increases
+		- provide more complex integrity checks (rules and constraints)
+		- are more flexible (in how they can be configured)
+		- provide more granular options for things like access control
+		- provide more and better options for external integrations
+		- are more focused on storing than tabulating/displaying
   	- security
   	  * secure defaults (accounts, passwords, settings, allowed connections)
   	  * straightforward administration
