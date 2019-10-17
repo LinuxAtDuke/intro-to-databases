@@ -129,9 +129,9 @@ Andy Ingham (andy.ingham AT duke.edu)
 	  * stored procedures, triggers, views
       * "Hot" backups, point-in-time recovery
       * Why databases aren't spreadsheets.  GENERALLY, databases:
-		- are more powerful (can organize data in more complex ways)
+		* are more powerful (can organize data in more complex ways)
 			- and, therefore, can provide FAR better searching/discovery options
-		- provide better normalization (if designed well)
+		* provide better normalization (if designed well)
 			- and, therefore, are more performant as size increases
 		- provide more complex integrity checks (rules and constraints)
 		- are more flexible (in how they can be configured)
