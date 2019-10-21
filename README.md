@@ -128,8 +128,6 @@ Andy Ingham (andy.ingham AT duke.edu)
 	| Gene               | varchar(32)         | NO   |     | NULL    |       |
 	| SNPtype            | varchar(64)         | NO   |     | NULL    |       |
 
-
-
 <a name='unit3'></a>
 ## Unit 3: Architectures
 
@@ -158,7 +156,6 @@ Andy Ingham (andy.ingham AT duke.edu)
   	- scalability (DBMS as well as underlying environments)
   	  * storage needs
   	  * transaction rates
-
 
 <a name='unit4'></a>
 ## Unit 4: Data integrity, security, confidentiality
