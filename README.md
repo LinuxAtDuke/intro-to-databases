@@ -22,6 +22,7 @@ Andy Ingham (andy.ingham AT duke.edu)
 
   * What are data?
 	- https://en.wikipedia.org/wiki/Data
+	- "Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings..." (OMB Circular 110) [https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A110/2cfr215-0.pdf]
 
   * What is a "database"?
   	- https://en.wikipedia.org/wiki/Database
