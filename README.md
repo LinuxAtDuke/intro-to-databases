@@ -15,7 +15,7 @@ Andy Ingham (andy.ingham AT duke.edu)
 2. [Unit 2: Schema, data dictionary](#unit2)
 3. [Unit 3: Architectures](#unit3)
 4. [Unit 4: Data integrity, security, confidentiality](#unit4)
-5. [Unit 5: Advanced topics (time permitting)](#unit5)
+5. [Unit 5: Questions, advanced topics](#unit5)
 
 <a name='unit1'></a>
 ## Unit 1: Definitions, uses, and kinds
@@ -164,7 +164,15 @@ Andy Ingham (andy.ingham AT duke.edu)
 ## Unit 4: Data integrity, security, confidentiality
 
   * integrity:  ACID (Atomicity, Consistency, Isolation, and Durability) (https://en.wikipedia.org/wiki/ACID)
+  	- Important for some obvious reasons:
+  	  * scientific validity
+  	  * potential basis for future work or discoveries
+  	  * provide confidence in information
   * (information) security:	CIA (Confidentiality, Integrity, Availability)
+  	- Important for some obvious reasons:
+  	  * protect intellectual property
+  	  * maintain confidentiality, privacy
+  	  * provide on-going access for authorized people to allow work to continue
   
 <a name='unit5'></a>
-## Unit 5: Advanced topics
+## Unit 5: Questions, advanced topics
