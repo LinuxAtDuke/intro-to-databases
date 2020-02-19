@@ -1,7 +1,7 @@
 Introduction to databases
 =====================
 
-*Version 1, 2019-10-22*
+*Version 2, 2020-02-19*
 
 *https://github.com/LinuxAtDuke/intro-to-databases*
 
@@ -32,7 +32,18 @@ Andy Ingham (andy.ingham AT duke.edu)
   	- patterns can be exposed,
   	- questions can be answered,
   	- a repository of information can be stored
-  	
+
+  * Why databases aren't spreadsheets.  _GENERALLY, databases_:
+	- are more powerful (can organize data in more complex ways)
+		  and, therefore, can provide FAR better searching/discovery options
+	- provide better normalization (if designed well)
+		  and, therefore, are more performant as size increases
+	- provide more complex integrity checks (rules and constraints)
+	- are more flexible (in how they can be configured)
+	- provide more granular options for things like access control
+	- provide more and better options for external integrations
+	- are more focused on storing than tabulating/displaying
+	
   * Kinds of databases (https://en.wikipedia.org/wiki/Database#Classification )
   	- Relational
   	(https://medium.com/@pocztarski/what-if-i-told-you-there-are-no-tables-in-relational-databases-13d31a2f9677 )
@@ -50,17 +61,6 @@ Andy Ingham (andy.ingham AT duke.edu)
 	- Key-value stores:
 	  * PROS:  simple
 	  * CONS:  simple
-
-  * Why databases aren't spreadsheets.  _GENERALLY, databases_:
-	- are more powerful (can organize data in more complex ways)
-		  and, therefore, can provide FAR better searching/discovery options
-	- provide better normalization (if designed well)
-		  and, therefore, are more performant as size increases
-	- provide more complex integrity checks (rules and constraints)
-	- are more flexible (in how they can be configured)
-	- provide more granular options for things like access control
-	- provide more and better options for external integrations
-	- are more focused on storing than tabulating/displaying
 
 <a name='unit2'></a>
 ## Unit 2: Schema, data dictionary
