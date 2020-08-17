@@ -1,7 +1,7 @@
 Introduction to databases
 =====================
 
-*Version 2, 2020-02-19*
+*Version 3, 2020-08-17*
 
 *https://github.com/LinuxAtDuke/intro-to-databases*
 
@@ -15,7 +15,6 @@ Andy Ingham (andy.ingham AT duke.edu)
 2. [Unit 2: Schema, data dictionary](#unit2)
 3. [Unit 3: Architectures](#unit3)
 4. [Unit 4: Data integrity, security, confidentiality](#unit4)
-5. [Unit 5: Questions, advanced topics](#unit5)
 
 <a name='unit1'></a>
 ## Unit 1: Definitions, uses, and kinds
@@ -170,6 +169,3 @@ Andy Ingham (andy.ingham AT duke.edu)
   	  * protect intellectual property
   	  * maintain confidentiality, privacy
   	  * provide on-going access for authorized people to allow work to continue
-  
-<a name='unit5'></a>
-## Unit 5: Questions, advanced topics
