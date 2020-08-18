@@ -43,14 +43,14 @@ Andy Ingham (andy.ingham AT duke.edu)
 	- provide more and better options for external integrations
 	- are more focused on searching/storing than tabulating/displaying
 	
-  * Kinds of databases (https://en.wikipedia.org/wiki/Database#Classification )
+  * Kinds of databases ... there are quite a few (https://en.wikipedia.org/wiki/Database#Models ), but relational is king 
   	- Relational
   	(https://medium.com/@pocztarski/what-if-i-told-you-there-are-no-tables-in-relational-databases-13d31a2f9677 )
 	  * PROS:  highly normalizable (avoids data duplication); stable; mature; consistency after each transaction
 	  * CONS:  rigid
 	
 	- Object / document / NoSQL
-	  * PROS:  faster for large or distributed data; flexible
+	  * PROS:  faster for "big" or distributed data; flexible
 	  * CONS:  less standardization for how to interact with data; requires high developer discipline; reasonable use cases are limited
 		
 	- GraphDBs
@@ -172,13 +172,13 @@ Andy Ingham (andy.ingham AT duke.edu)
   	  
 <a name='unit5'></a>
 ## Unit 5: Primer for the Intro to MySQL class (or for practical playing)
-#### AKA:  Creating a personal Linux VM
+#### AKA:  Creating a personal Linux VM (Lab 0 from the Intro to MySQL class)
 
 1. Using a web browser, go to *https://vcm.duke.edu/*
 2. Login using your Duke NetId.
 3. Select "Reserve a VM" (near the middle of the page)
 4. On the next screen, select "Lamp Stack" in the dropdown list (under Linux AppStacks) and then "Reserve"
-4. After agreeing to the Terms of Use, the VCM web page will display the name of your VM along with available usernames. __You must first connect to the University VPN (if not "on campus"), THEN initiate an ssh session as the Admin User (vcm) -- do this via the "Terminal" app on your Mac or via "PuTTY" (available at https://www.chiark.greenend.org.uk/~sgtatham/putty/ ) on your Windows machine.__
+5. After agreeing to the Terms of Use, the VCM web page will display the name of your VM along with available usernames. __You must first connect to the University VPN (if not "on campus"), THEN initiate an ssh session as the Admin User (vcm) -- do this via the "Terminal" app on your Mac or via "PuTTY" (available at https://www.chiark.greenend.org.uk/~sgtatham/putty/ ) on your Windows machine.__
 		  
 *Example (after establishing a University VPN session, if off campus):* `ssh vcm@vcm-1473.vm.duke.edu` [Answering "yes" to "Are you sure you want to continue connecting (yes/no)?" and then entering the password behind "View Password" when prompted]
 
