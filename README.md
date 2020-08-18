@@ -141,17 +141,17 @@ Andy Ingham (andy.ingham AT duke.edu)
   	  * how secure are the defaults? (accounts, passwords, settings, allowed connections)
   	  * how straightforward is (or how comfortable are you with) the DB administration?
   	  * are patches regularly released?  _(remembering that updates are only useful if ACTUALLY APPLIED in a timely fashion)_
-  	- usability / reporting
+  	- usability
   	  * CLI or GUI
-  	  * documentation / community-support
+  	  * documentation / community-support versus paid-support
   	- integration
-  	  * base OS
+  	  * base OS may dictate options for add-ons or helper apps
   	  * middleware / ODBC (Open Database Connectivity)
   	  * reporting tools
   	- cost
-  	  * up-front (hardware, licensing)
+  	  * up-front (hardware, licensing, life-cycle capital costs)
   	  * pay-as-you-go (cloud options)
-  	- support / hosting / future development (bug fixes+enhancements+security)
+  	- hosting / future development (bug fixes+enhancements+security)
   	- scalability (DBMS as well as underlying environments)
   	  * storage needs
   	  * transaction rates
