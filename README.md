@@ -138,9 +138,9 @@ Andy Ingham (andy.ingham AT duke.edu)
 	  * advanced data types + searching (e.g., XPath)
       * "Hot" backups, point-in-time recovery
   	- security
-  	  * secure defaults (accounts, passwords, settings, allowed connections)
-  	  * straightforward administration
-  	  * regularly patched
+  	  * how secure are the defaults? (accounts, passwords, settings, allowed connections)
+  	  * how straightforward is (or how comfortable are you with) the DB administration?
+  	  * are patches regularly released?  _(remembering that updates are only useful if ACTUALLY APPLIED in a timely fashion)_
   	- usability / reporting
   	  * CLI or GUI
   	  * documentation / community-support
