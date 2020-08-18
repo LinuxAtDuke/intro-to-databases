@@ -172,13 +172,13 @@ Andy Ingham (andy.ingham AT duke.edu)
   	  
 <a name='unit5'></a>
 ## Unit 5: Primer for the Intro to MySQL class (or for practical playing)
-## AKA:  Creating a personal Linux VM
+#### AKA:  Creating a personal Linux VM
 
 1. Using a web browser, go to *https://vcm.duke.edu/*
 2. Login using your Duke NetId.
 3. Select "Reserve a VM" (near the middle of the page)
 4. On the next screen, select "Lamp Stack" in the dropdown list (under Linux AppStacks) and then "Reserve"
-4. After agreeing to the Terms of Use, the VCM web page will display the name of your VM along with available usernames. __You should connect via ssh as the Admin User (vcm) -- do this via the "Terminal" app on your Mac or via "PuTTY"(available at https://www.chiark.greenend.org.uk/~sgtatham/putty/) on your Windows machine.__
+4. After agreeing to the Terms of Use, the VCM web page will display the name of your VM along with available usernames. __You should connect via ssh as the Admin User (vcm) -- do this via the "Terminal" app on your Mac or via "PuTTY" (available at https://www.chiark.greenend.org.uk/~sgtatham/putty/ ) on your Windows machine.__
 		  
 *Example:* `ssh vcm@vcm-1473.vm.duke.edu` [Answering "yes" to "Are you sure you want to continue connecting (yes/no)?" and then entering the password behind "View Password" when prompted]
 
