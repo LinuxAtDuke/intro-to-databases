@@ -15,6 +15,7 @@ Andy Ingham (andy.ingham AT duke.edu)
 2. [Unit 2: Schema, data dictionary](#unit2)
 3. [Unit 3: Architectures](#unit3)
 4. [Unit 4: Data integrity, security, confidentiality](#unit4)
+5. [Unit 5: Primer for the Intro to MySQL class (or for practical playing)](#unit5)
 
 <a name='unit1'></a>
 ## Unit 1: Definitions, uses, and kinds
@@ -22,25 +23,25 @@ Andy Ingham (andy.ingham AT duke.edu)
   * What are data?
 	- https://en.wikipedia.org/wiki/Data
 	- from least to most abstract:  data > information > knowledge > wisdom
-	- "Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings..." (OMB Circular 110) [https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A110/2cfr215-0.pdf]
+	- "Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings..." (OMB Circular 110 ; https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A110/2cfr215-0.pdf)
 
   * What is a "database"? What is a DBMS (database management system)?
   	- https://en.wikipedia.org/wiki/Database
   	
   * Databases are primarily needed to structure and organize data so that:
   	- associations can be revealed _(e.g., X is related to Y via share attribute Z)_,
-  	- patterns can be exposed _(e.g., X is a more prevalent value than Y by magnitude Z)_,
+  	- patterns can be exposed _(e.g., X is more prevalent than Y by magnitude Z)_,
   	- questions can be answered _(e.g., X is the type of Y that exhibits Z)_,
   	- a repository of information can be stored _(by retaining associated data elements)_
 
-  * Why databases aren't spreadsheets.  _GENERALLY, databases_...
-	- are more powerful (can organize data in more complex ways) and, therefore, can provide far better searching/discovery options
-	- provide better normalization (if designed well) and, therefore, are more performant as size increases
-	- provide more complex integrity checks (rules and constraints)
+  * Why aren't databases spreadsheets?  Because, _GENERALLY_, databases ...
+	- are more powerful (can organize data in more complex ways) and, therefore, can provide better searching/discovery options
+	- provide better normalization (if designed well) and, therefore, are more performant as size increases ("scalable")
+	- provide more complex integrity checks (rules and constraints about data elements and associations)
 	- are more flexible (in how they can be configured)
-	- provide more granular options for things like access control
+	- provide more granular options for things like access control and, therefore, better suited to shared usage by disparate groups
 	- provide more and better options for external integrations
-	- are more focused on storing than tabulating/displaying
+	- are more focused on searching/storing than tabulating/displaying
 	
   * Kinds of databases (https://en.wikipedia.org/wiki/Database#Classification )
   	- Relational
@@ -145,7 +146,7 @@ Andy Ingham (andy.ingham AT duke.edu)
   	  * documentation / community-support
   	- integration
   	  * base OS
-  	  * middleware / ODBC
+  	  * middleware / ODBC (Open Database Connectivity)
   	  * reporting tools
   	- cost
   	  * up-front (hardware, licensing)
@@ -168,3 +169,20 @@ Andy Ingham (andy.ingham AT duke.edu)
   	  * protect intellectual property
   	  * maintain confidentiality, privacy
   	  * provide on-going access for authorized people to allow work to continue
+  	  
+<a name='unit5'></a>
+## Unit 5: Primer for the Intro to MySQL class (or for practical playing)
+## AKA:  Creating a personal Linux VM
+
+1. Using a web browser, go to *https://vcm.duke.edu/*
+2. Login using your Duke NetId.
+3. Select "Reserve a VM" (near the middle of the page)
+4. On the next screen, select "Lamp Stack" in the dropdown list (under Linux AppStacks) and then "Reserve"
+4. After agreeing to the Terms of Use, the VCM web page will display the name of your VM along with available usernames. __You should connect via ssh as the Admin User (vcm) -- do this via the "Terminal" app on your Mac or via "PuTTY"(available at https://www.chiark.greenend.org.uk/~sgtatham/putty/) on your Windows machine.__
+		  
+*Example:* `ssh vcm@vcm-1473.vm.duke.edu` [Answering "yes" to "Are you sure you want to continue connecting (yes/no)?" and then entering the password behind "View Password" when prompted]
+
+  * A brief tangent to discuss architecture
+
+	https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/client-server-architecture.pdf
+
