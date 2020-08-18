@@ -21,18 +21,19 @@ Andy Ingham (andy.ingham AT duke.edu)
 
   * What are data?
 	- https://en.wikipedia.org/wiki/Data
+	- from most to least abstract:  data > information > knowledge > wisdom
 	- "Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings..." (OMB Circular 110) [https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A110/2cfr215-0.pdf]
 
-  * What is a "database"?
+  * What is a "database"? What is a DBMS (database management system)?
   	- https://en.wikipedia.org/wiki/Database
   	
   * Databases are primarily needed to structure and organize data so that:
-  	- associations can be revealed,
-  	- patterns can be exposed,
-  	- questions can be answered,
-  	- a repository of information can be stored
+  	- associations can be revealed (e.g., X is related to Y via share attribute Z),
+  	- patterns can be exposed (e.g., X is a more prevalent value than Y by magnitude Z),
+  	- questions can be answered (e.g., X is the type of Y that exhibits Z),
+  	- a repository of information can be stored (by retaining associated data elements)
 
-  * Why databases aren't spreadsheets.  _GENERALLY, databases_:
+  * Why databases aren't spreadsheets.  _GENERALLY, databases_...
 	- are more powerful (can organize data in more complex ways)
 		  and, therefore, can provide FAR better searching/discovery options
 	- provide better normalization (if designed well)
