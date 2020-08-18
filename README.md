@@ -34,7 +34,7 @@ Andy Ingham (andy.ingham AT duke.edu)
   	- questions can be answered _(e.g., X is the type of Y that exhibits Z)_,
   	- a repository of information can be stored _(by retaining associated data elements)_
 
-  * Why aren't databases spreadsheets?  Because, _GENERALLY_, databases ...
+  * Why aren't databases spreadsheets?  Because, _GENERALLY SPEAKING_, databases ...
 	- are more powerful (can organize data in more complex ways) and, therefore, can provide better searching/discovery options
 	- provide better normalization (if designed well) and, therefore, are more performant as size increases ("scalable")
 	- provide more complex integrity checks (rules and constraints about data elements and associations)
@@ -43,7 +43,7 @@ Andy Ingham (andy.ingham AT duke.edu)
 	- provide more and better options for external integrations
 	- are more focused on searching/storing than tabulating/displaying
 	
-  * Kinds of databases ... there are quite a few (https://en.wikipedia.org/wiki/Database#Models ), but relational is king 
+  * Kinds of databases ... there are quite a few (https://en.wikipedia.org/wiki/Database#Models ), but relational is probably still king 
   	- Relational
   	(https://medium.com/@pocztarski/what-if-i-told-you-there-are-no-tables-in-relational-databases-13d31a2f9677 )
 	  * PROS:  highly normalizable (avoids data duplication); stable; mature; consistency after each transaction
@@ -65,15 +65,15 @@ Andy Ingham (andy.ingham AT duke.edu)
 ## Unit 2: Schema, data dictionary
 
   * Schema development is best done via an ER diagram and/or a whiteboard - consider these:
-	- what are the entities?
+	- what are the entities? _(the "things" or "concepts" that form the basis of our data)_
 	- what relationships do they have with one another?
-	- what are the important attributes of the data elements?
-	- what are the data types and metadata (is NULL allowed? defaults?) for the attributes
-	- what will determine uniqueness in each table? (simple or compound primary keys?)
-	- what queries are users going to run? (which will inform index creation)
-	- what indexes are needed (beyond those for the primary keys)?
+	- what are the important attributes of the entities?
+	- what are the data types and metadata _(is NULL allowed? are there default values?)_ for those attributes?
+	- what will determine uniqueness in each table? _(will the primary key be simple or compound?)_
+	- what queries are users likely to run? _(this will inform index creation)_
+	- what indexes are needed? _(to supplement the primary key)_
 	
-  * Some examples:
+  * Some (albeit simple and somewhat silly) examples:
 	- https://www.edrawsoft.com/templates/pdf/pet-store-er-diagram.pdf
 		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaOwner.pdf
 		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaPet.pdf
@@ -134,8 +134,8 @@ Andy Ingham (andy.ingham AT duke.edu)
   	- functionality
   	  * store and retrieve; CRUD (Create, Read, Update, Delete)
   	  * partitioning, replication, MVCC (Multi-Version Concurrency Control)
-	  * advanced data types + searching (e.g., XPath)
 	  * stored procedures, triggers, views
+	  * advanced data types + searching (e.g., XPath)
       * "Hot" backups, point-in-time recovery
   	- security
   	  * secure defaults (accounts, passwords, settings, allowed connections)
