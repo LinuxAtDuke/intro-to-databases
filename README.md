@@ -176,6 +176,10 @@ Andy Ingham (andy.ingham AT duke.edu)
 ## Unit 5: Primer for the Intro to MySQL class (or for practical playing)
 #### AKA:  Creating a personal Linux VM (Lab 0 from the [Intro to MySQL class](https://github.com/LinuxAtDuke/Intro-to-MySQL))
 
+  * A brief tangent to discuss architecture
+
+	https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/client-server-architecture.pdf
+
 1. Using a web browser, go to *https://vcm.duke.edu/*
 2. Login using your Duke NetId.
 3. Select "Reserve a VM" (near the middle of the page)
@@ -184,7 +188,4 @@ Andy Ingham (andy.ingham AT duke.edu)
 		  
 *Example (after establishing a University VPN session, if off campus):* `ssh vcm@vcm-1473.vm.duke.edu` [Answering "yes" to "Are you sure you want to continue connecting (yes/no)?" and then entering the password behind "View Password" when prompted]
 
-  * A brief tangent to discuss architecture
-
-	https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/client-server-architecture.pdf
 
