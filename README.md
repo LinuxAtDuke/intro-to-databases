@@ -167,7 +167,7 @@ Andy Ingham (andy.ingham AT duke.edu)
   * (information) security:	CIA (Confidentiality, Integrity, Availability)
   	- Important for some obvious reasons:
   	  * protect intellectual property
-  	  * maintain confidentiality, privacy
+  	  * maintain confidentiality of data (which can help protect privacy)
   	  * provide on-going access for authorized people to allow work to continue
   	  
 <a name='unit5'></a>
