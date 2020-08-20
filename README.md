@@ -167,8 +167,8 @@ Andy Ingham (andy.ingham AT duke.edu)
   * (information) security:	CIA (Confidentiality, Integrity, Availability) (https://www.tylercybersecurity.com/blog/fundamental-objectives-of-information-security-the-cia-triad)
   	- Important for some obvious reasons:
   	  * protect intellectual property
-  	  * guard against unauthorized updates or deletions (to protect data integrity)
   	  * maintain confidentiality of data (which can help protect privacy)
+  	  * guard against unauthorized updates or deletions (to protect data integrity)
   	  * provide on-going access for authorized people
   	  
 <a name='unit5'></a>
