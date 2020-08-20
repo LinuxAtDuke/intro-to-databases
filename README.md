@@ -176,8 +176,7 @@ Andy Ingham (andy.ingham AT duke.edu)
 ## Unit 5: Primer for the Intro to MySQL class (or for practical playing)
 #### AKA:  Creating a personal Linux VM (Lab 0 from the [Intro to MySQL class](https://github.com/LinuxAtDuke/Intro-to-MySQL))
 
-  * A brief tangent to discuss architecture
-	   https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/client-server-architecture.pdf
+  * A brief tangent to discuss architecture == https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/client-server-architecture.pdf
 
 1. Using a web browser, go to *https://vcm.duke.edu/*
 2. Login using your Duke NetId.
