@@ -78,8 +78,9 @@ Andy Ingham (andy.ingham AT duke.edu)
 		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaOwner.pdf
 		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaPet.pdf
 		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaPetClinic.pdf
-		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaPetStore.pdf
 		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaTreatments.pdf
+		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaPetStore.pdf
+
 	- https://www.safaribooksonline.com/library/view/learning-mysql/0596008643/ch04s04.html
 
   * A tutorial to help with schema development:
@@ -130,7 +131,7 @@ Andy Ingham (andy.ingham AT duke.edu)
 <a name='unit3'></a>
 ## Unit 3: Architectures
 
-  * suitability (or, So which database to choose?  (SQLite vs Postgres vs MySQL vs ORACLE vs ...))
+  * suitability (or, So which database to choose?  (SQLite vs Postgres vs MySQL vs ORACLE vs MSSQL ...))
   	- functionality
   	  * store and retrieve; CRUD (Create, Read, Update, Delete)
   	  * partitioning, replication, MVCC (Multi-Version Concurrency Control)
@@ -173,7 +174,7 @@ Andy Ingham (andy.ingham AT duke.edu)
   	  
 <a name='unit5'></a>
 ## Unit 5: Primer for the Intro to MySQL class (or for practical playing)
-#### AKA:  Creating a personal Linux VM (Lab 0 from the Intro to MySQL class)
+#### AKA:  Creating a personal Linux VM (Lab 0 from the [Intro to MySQL class](https://github.com/LinuxAtDuke/Intro-to-MySQL))
 
 1. Using a web browser, go to *https://vcm.duke.edu/*
 2. Login using your Duke NetId.
