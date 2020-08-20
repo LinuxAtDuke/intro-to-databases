@@ -164,11 +164,12 @@ Andy Ingham (andy.ingham AT duke.edu)
   	  * scientific validity
   	  * potential basis for future work or discoveries
   	  * provide confidence in information
-  * (information) security:	CIA (Confidentiality, Integrity, Availability)
+  * (information) security:	CIA (Confidentiality, Integrity, Availability) (https://www.tylercybersecurity.com/blog/fundamental-objectives-of-information-security-the-cia-triad)
   	- Important for some obvious reasons:
   	  * protect intellectual property
+  	  * guard against unauthorized updates or deletions (to protect data integrity)
   	  * maintain confidentiality of data (which can help protect privacy)
-  	  * provide on-going access for authorized people to allow work to continue
+  	  * provide on-going access for authorized people
   	  
 <a name='unit5'></a>
 ## Unit 5: Primer for the Intro to MySQL class (or for practical playing)
