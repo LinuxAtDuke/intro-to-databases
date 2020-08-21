@@ -62,7 +62,7 @@ Andy Ingham (andy.ingham AT duke.edu)
 	  * CONS:  simple
 
 <a name='unit2'></a>
-## Unit 2: Schema, data dictionary
+## Unit 2: [Schema](https://en.wikipedia.org/wiki/Database_schema), data dictionary
 
   * Schema development is best done via an ER diagram and/or a whiteboard - consider these:
 	- what are the entities? _(the "things" or "concepts" that form the basis of our data)_
