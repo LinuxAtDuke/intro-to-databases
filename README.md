@@ -21,15 +21,15 @@ Andy Ingham (andy.ingham AT duke.edu)
 ## Unit 1: Definitions, uses, and kinds
 
   * What are data?
-	- https://en.wikipedia.org/wiki/Data
 	- from least to most abstract:  data > information > knowledge > wisdom
+	- https://en.wikipedia.org/wiki/Data
 	- "Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings..." (OMB Circular 110 ; https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A110/2cfr215-0.pdf)
 
   * What is a "database"? What is a DBMS (database management system)?
   	- https://en.wikipedia.org/wiki/Database
   	
   * Databases are primarily needed to structure and organize data so that:
-  	- associations can be revealed _(e.g., X is related to Y via share attribute Z)_,
+  	- associations can be revealed _(e.g., X is related to Y via shared attribute Z)_,
   	- patterns can be exposed _(e.g., X is more prevalent than Y by magnitude Z)_,
   	- questions can be answered _(e.g., X is the type of Y that exhibits Z)_,
   	- a repository of information can be stored _(by retaining associated data elements)_
