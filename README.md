@@ -1,7 +1,7 @@
 Introduction to databases
 =====================
 
-*Version 3, 2020-10-09*
+*Version 4, 2021-01-27*
 
 *https://github.com/LinuxAtDuke/intro-to-databases*
 
@@ -78,7 +78,8 @@ Andy Ingham (andy.ingham AT duke.edu)
 		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaOwner.pdf
 		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaPet.pdf
 		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaPetClinic.pdf
-		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaTreatments.pdf
+		- ESPECIALLY PROBLEMATIC: https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaTreatments.pdf
+		- IN LIGHT OF THE ABOVE: https://dzone.com/articles/how-to-handle-a-many-to-many-relationship-in-datab
 		- https://github.com/LinuxAtDuke/Intro-to-MySQL/blob/master/pet-store-example-schemaPetStore.pdf
 
 	- https://www.safaribooksonline.com/library/view/learning-mysql/0596008643/ch04s04.html
